@@ -19,5 +19,5 @@ variable "aws_amis" {
 variable "bucket_name" {
   description = "Name of the S3 bucket. Must be Unique across AWS"
   type        = string
-  default = "test-bucket-123-4"
+  default = "test-bucket123-4"
 }
